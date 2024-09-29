@@ -1,0 +1,90 @@
+{
+	"Modality": "MR",
+	"MagneticFieldStrength": 3,
+	"ImagingFrequency": 127.787087,
+	"Manufacturer": "GE",
+	"ManufacturersModelName": "Signa HDxt",
+	"InstitutionName": "1177879318455840",
+	"DeviceSerialNumber": "3282424594434339",
+	"StationName": "1164948383980763",
+	"PatientPosition": "HFS",
+	"ProcedureStepDescription": "SPGR",
+	"SoftwareVersions": "24\\LX\\MR Software release:HD16.0_V02_1131.a",
+	"MRAcquisitionType": "3D",
+	"SeriesDescription": "Accelerated SAG IR-SPGR",
+	"ProtocolName": "Accelerated SAG IR-SPGR",
+	"ScanningSequence": "GR",
+	"SequenceVariant": "SS\\SP\\SK",
+	"ScanOptions": "FAST_GEMS\\EDR_GEMS\\ACC_GEMS",
+	"PulseSequenceName": "efgre3d",
+	"ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "MAGNITUDE"],
+	"DeidentificationMethod": "mri_reface 0.3.4\\Per DICOM PS 3.15 AnnexE. Details in 0012,0064",
+	"DeidentificationMethodCodeSequence": [ 
+	  { 
+		"CodeValue": "113102",
+		"CodingSchemeDesignator": "DCM",
+		"CodingSchemeVersion": "01",
+		"CodeMeaning": "Clean Recognizable Visual Features Option"
+	  },
+	  { 
+		"CodeValue": "replace_recognizable",
+		"CodingSchemeDesignator": "mri_reface",
+		"CodingSchemeVersion": "0.3.4",
+		"CodeMeaning": "Replace face, ears, and artifacts in air"
+	  },
+	  { 
+		"CodeValue": "113100",
+		"CodingSchemeDesignator": "DCM",
+		"CodeMeaning": "Basic Application Confidentiality Profile"
+	  },
+	  { 
+		"CodeValue": "113107",
+		"CodingSchemeDesignator": "DCM",
+		"CodeMeaning": "Retain Longitudinal Temporal Information Modified Dates Option"
+	  },
+	  { 
+		"CodeValue": "113111",
+		"CodingSchemeDesignator": "DCM",
+		"CodeMeaning": "Retain Safe Private Option"
+	  }
+	],
+	"SeriesNumber": 10,
+	"AcquisitionTime": "11:30:44.000000",
+	"AcquisitionNumber": 1,
+	"SliceThickness": 1.2,
+	"SpacingBetweenSlices": 1.2,
+	"SAR": 0.325624,
+	"TablePosition": [
+		0,
+		0,
+		2.91749e-11	],
+	"EchoTime": 0.002832,
+	"RepetitionTime": 0.006964,
+	"SpoilingState": true,
+	"InversionTime": 0.4,
+	"FlipAngle": 11,
+	"ShimSetting": [
+		-10,
+		-4,
+		-3	],
+	"PrescanReuseString": "TG/s1",
+	"CoilString": "8HRBRAIN",
+	"PercentPhaseFOV": 100,
+	"PercentSampling": 100,
+	"AcquisitionMatrixPE": 256,
+	"ReconMatrixPE": 256,
+	"ParallelReductionFactorInPlane": 1.72974,
+	"AcquisitionDuration": 326.953,
+	"PixelBandwidth": 244.141,
+	"ImageOrientationPatientDICOM": [
+		-0,
+		1,
+		0,
+		-0,
+		-0,
+		-1	],
+	"InPlanePhaseEncodingDirectionDICOM": "ROW",
+	"BidsGuess": ["anat","_acq-EFGRE3Dp2_run-10_T1w"],
+	"ConversionSoftware": "dcm2niix",
+	"ConversionSoftwareVersion": "v1.0.20240928"
+}
