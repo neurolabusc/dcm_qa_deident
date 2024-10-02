@@ -18,7 +18,7 @@
 	"ScanOptions": "FAST_GEMS\\EDR_GEMS\\ACC_GEMS",
 	"PulseSequenceName": "efgre3d",
 	"ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "MAGNITUDE"],
-	"DeidentificationMethod": "mri_reface 0.3.4\\Per DICOM PS 3.15 AnnexE. Details in 0012,0064",
+	"DeidentificationMethod": ["mri_reface 0.3.4", "Per DICOM PS 3.15 AnnexE. Details in 0012,0064"],
 	"DeidentificationMethodCodeSequence": [ 
 	  { 
 		"CodeValue": "113102",
@@ -86,5 +86,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["anat","_acq-EFGRE3Dp2_run-10_T1w"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20240928"
+	"ConversionSoftwareVersion": "v1.0.20241001"
 }
