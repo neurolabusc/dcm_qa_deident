@@ -74,7 +74,6 @@
 	"AcquisitionMatrixPE": 256,
 	"ReconMatrixPE": 256,
 	"ParallelReductionFactorInPlane": 1.72974,
-	"AcquisitionDuration": 326.953,
 	"PixelBandwidth": 244.141,
 	"ImageOrientationPatientDICOM": [
 		-0,
@@ -86,5 +85,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["anat","_acq-EFGRE3Dp2_run-10_T1w"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20241001"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }
