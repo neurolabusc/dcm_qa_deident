@@ -5,6 +5,7 @@
 	"Manufacturer": "GE",
 	"ManufacturersModelName": "Signa HDxt",
 	"InstitutionName": "1177879318455840",
+	"InstitutionalDepartmentName": "None",
 	"DeviceSerialNumber": "3282424594434339",
 	"StationName": "1164948383980763",
 	"PatientPosition": "HFS",
@@ -15,8 +16,9 @@
 	"ProtocolName": "Accelerated SAG IR-SPGR",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "SS\\SP\\SK",
+	"PulseSequenceType": "Spoiled Gradient Echo",
 	"ScanOptions": "FAST_GEMS\\EDR_GEMS\\ACC_GEMS",
-	"PulseSequenceName": "efgre3d",
+	"SequenceName": "efgre3d",
 	"ImageType": ["ORIGINAL", "PRIMARY", "OTHER", "MAGNITUDE"],
 	"DeidentificationMethod": ["mri_reface 0.3.4", "Per DICOM PS 3.15 AnnexE. Details in 0012,0064"],
 	"DeidentificationMethodCodeSequence": [ 
@@ -54,10 +56,6 @@
 	"SliceThickness": 1.2,
 	"SpacingBetweenSlices": 1.2,
 	"SAR": 0.325624,
-	"TablePosition": [
-		0,
-		0,
-		2.91749e-11	],
 	"EchoTime": 0.002832,
 	"RepetitionTime": 0.006964,
 	"SpoilingState": true,
@@ -74,6 +72,8 @@
 	"AcquisitionMatrixPE": 256,
 	"ReconMatrixPE": 256,
 	"ParallelReductionFactorInPlane": 1.72974,
+	"ParallelReductionFactorOutOfPlane": 1,
+	"AcquisitionDuration": 326.953,
 	"PixelBandwidth": 244.141,
 	"ImageOrientationPatientDICOM": [
 		-0,
@@ -85,5 +85,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["anat","_acq-EFGRE3Dp2_run-10_T1w"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
